@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="path" value="G:\\Software\\Selenium\\chromedriver_74\\chromedriver_win32\\chromedriver.exe"></parameter>
+<parameter name="url" value="http://newtours.demoaut.com/mercuryregister.php"></parameter>
+
+  <test thread-count="5" name="Test">
+  
+  <parameter name="firstname" value="Nagesh"></parameter>
+  <parameter name="lastname" value="Raut"></parameter>
+  <parameter name="phone" value="9405035586"></parameter>
+  <parameter name="mail" value="n.r@gmail.com"></parameter>
+  <parameter name="add" value="Baner"></parameter>
+  <parameter name="city" value="Pune"></parameter>
+  <parameter name="state" value="Maha"></parameter>
+  <parameter name="pc" value="411030"></parameter>
+  <parameter name="coun" value="INDIA"></parameter>
+  <parameter name="usernm" value="nr1234"></parameter>
+  <parameter name="passwd" value="N143"></parameter>
+  <parameter name="cpasswd" value="N143"></parameter>
+    <classes>
+      <class name="com.Modules.RegisterDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

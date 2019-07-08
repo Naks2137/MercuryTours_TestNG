@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12281" started-at="2019-07-07T14:58:06Z" finished-at="2019-07-07T14:58:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12281" started-at="2019-07-07T14:58:06Z" finished-at="2019-07-07T14:58:18Z">
+      <class name="com.Modules.RegisterDemo">
+        <test-method status="PASS" signature="executeBrowser(java.lang.String, java.lang.String)[pri:1, instance:com.Modules.RegisterDemo@7c0e2abd]" name="executeBrowser" duration-ms="6846" started-at="2019-07-07T14:58:06Z" finished-at="2019-07-07T14:58:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G:\\Software\\Selenium\\chromedriver_74\\chromedriver_win32\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercuryregister.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBrowser -->
+        <test-method status="PASS" signature="verifyRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Modules.RegisterDemo@7c0e2abd]" name="verifyRegister" duration-ms="5350" started-at="2019-07-07T14:58:13Z" finished-at="2019-07-07T14:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nagesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raut]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9405035586]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[n.r@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Baner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[411030]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[nr1234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[N143]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[N143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegister -->
+      </class> <!-- com.Modules.RegisterDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
